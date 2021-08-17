@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS prompts;
+CREATE TABLE prompts (
+  id INT NOT NULL,
+  title VARCHAR(256) NOT NULL,
+  text TEXT NOT NULL,
+);
